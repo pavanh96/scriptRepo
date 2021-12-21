@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent { labe 'slave-2'}
   stages {
     stage('Build') {
       steps {
